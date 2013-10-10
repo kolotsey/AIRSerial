@@ -1,7 +1,7 @@
 # Build and Release Folders
-bin/
-bin-debug/
-bin-release/
+io-serial/*/
+io-serial/io-serial
+test/*.swf
 
 # Other files and folders
 .settings/
