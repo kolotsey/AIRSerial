@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://ns.adobe.com/air/application/2.6">
+	<id>Test-AIRSerial</id>
+	<versionNumber>1.0</versionNumber>
+	<filename>AIRSerial</filename>
+	<name>
+		<text xml:lang="en">AIRSerial</text>
+		<text xml:lang="ru">AIRSerial</text>
+	</name>
+	<description>
+		<text xml:lang="en">AIRSerial Test Application</text>
+		<text xml:lang="ru">AIRSerial Test Application</text>
+	</description>
+	<initialWindow>
+		<content>test-airserial.swf</content>
+		<title>AIRSerial</title>
+		<systemChrome>standard</systemChrome>
+		<transparent>false</transparent>
+		<visible>true</visible>
+		<minimizable>true</minimizable>
+		<maximizable>true</maximizable>
+		<resizable>true</resizable>
+		<width>640</width>
+		<height>480</height>
+		<minSize>320 240</minSize>
+	</initialWindow>
+	<icon>
+		<image32x32>appfiles/32.png</image32x32>
+		<image16x16>appfiles/16.png</image16x16>
+	</icon>
+	<supportedProfiles>extendedDesktop desktop</supportedProfiles>
+</application>
