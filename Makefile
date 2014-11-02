@@ -15,6 +15,8 @@
 # You should have received a copy of the GNU General Public Licenise
 # along with libexpression. If not, see <http://www.gnu.org/licenses/>.
 
+# Set global path of your flex directory here
+FLEXDIR=/opt/flex
 
 TARGET=AIRSerial.swc
 SRCDIR=./src
@@ -42,7 +44,7 @@ CFLAGS= \
 all:$(TARGET)
 
 $(TARGET):$(SOURCES) Makefile
-	/opt/flex/bin/compc $(CFLAGS) -output $@
+	$(FLEXDIR)/bin/compc $(CFLAGS) -output $@
 
 clean:
 	rm -f $(TARGET)
